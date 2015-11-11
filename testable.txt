@@ -1,0 +1,11 @@
+// title
+Testable import statement for XCTest files
+
+// summary
+Imports module for testing
+
+// shortcut
+testable
+
+// code
+@testable import <#Module#>

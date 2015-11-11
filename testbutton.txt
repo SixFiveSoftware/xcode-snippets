@@ -1,0 +1,19 @@
+// title
+Test Button Action Hooked Up
+
+// summary
+Test to ensure that a button's target action has been set up in the storyboard.
+
+// shortcut
+testbutton
+
+// code
+func test<#ButtonName#>ButtonAction() {
+    // when
+    _ = sut.view
+    
+    // then
+    let button = sut.<#Outlet#>
+    let actions = button.actionsForTarget(sut, forControlEvent: .TouchUpInside) ?? []
+    XCTAssertTrue(actions.contains("<#SelectorName#>"))
+}

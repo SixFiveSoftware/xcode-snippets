@@ -1,0 +1,12 @@
+// title
+Storyboard and SUT vars for tests
+
+// summary
+Provides `storyboard` and `sut` properties for a test.
+
+// shortcut
+story
+
+// code
+let storyboard = UIStoryboard(name: "<#StoryboardName#>", bundle: nil)
+    var sut: <#ViewControllerType#>!

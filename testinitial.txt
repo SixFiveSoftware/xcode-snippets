@@ -1,0 +1,13 @@
+// title
+Test Initial state
+
+// summary
+Test for inspecting initial state of an outlet or property.
+
+// shortcut
+testinitial
+
+// code
+func test<#Outlet#>IsInitially<#InitialValue#>() {
+	XCTAssertEqual(sut.<#Outlet#>, <#InitialValue#>)
+}

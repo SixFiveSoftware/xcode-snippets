@@ -1,0 +1,13 @@
+// title
+Test Outlet Should Be Connected
+
+// summary
+Unit test for testing that a particular outlet should be connected.
+
+// shortcut
+testoutlet
+
+// code
+func test<#outlet#>ShouldBeConnected() {
+    XCTAssertNotNil(sut.<#OutletName#>)
+}

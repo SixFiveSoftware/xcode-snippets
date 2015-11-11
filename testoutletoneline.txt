@@ -1,0 +1,11 @@
+// title
+One line outlet test
+
+// summary
+Performs outlet test for not nil, but only uses one line.
+
+// shortcut
+testoutletoneline
+
+// code
+func test<#Outlet#>ShouldBeConnected() { XCTAssertNotNil(sut.<#Outlet#>) }

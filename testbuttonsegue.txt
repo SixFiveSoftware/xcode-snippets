@@ -1,0 +1,19 @@
+// title
+Test Button Segue
+
+// summary
+Test to ensure a button's segue identifier is equal to what is set in the storyboard.
+
+// shortcut
+testbuttonsegue
+
+// code
+func test<#Button Outlet#>SegueIsConnected() {
+	let button = sut.<#Button Outlet#>
+	let actions =  button.allTargets()
+	guard let action = actions.first else { XCTFail("There should be at least one action"); return }
+	let actionIdentifer = action.valueForKey(_identifier) as? String
+	let expectedIdentifier = "<#Segue Identifier#>"
+        
+	XCTAssertEqual(actionIdentifer, expectedIdentifier)
+}

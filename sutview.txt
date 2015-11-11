@@ -1,0 +1,12 @@
+// title
+Instantiate VC from Storyboard and call view.
+
+// summary
+Creates an instance of the view controller from the storyboard and calls -view to set up view hierarchy and hook up outlets.
+
+// shortcut
+sutview
+
+// code
+sut = storyboard.instantiateViewControllerWithIdentifier("<#ViewControllerStoryboardID#>") as! <#ViewController#>
+_ = sut.view

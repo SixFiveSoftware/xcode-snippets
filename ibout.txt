@@ -1,0 +1,11 @@
+// title
+IBOutlet snippet
+
+// summary
+Creates a stub for an IBOutlet
+
+// shortcut
+ibout
+
+// code
+@IBOutlet weak var <#outlet#>: <#Type#>!

@@ -1,0 +1,12 @@
+// title
+GCD - Main Queue
+
+// summary
+
+// shortcut
+mainqueue
+
+// code
+dispatch_async(dispatch_get_main_queue()) {
+    <#main thread code here#>
+}

@@ -1,0 +1,20 @@
+// title
+Test action should provide a result.
+
+// summary
+Test ensures that performing a particular action provides a particular result.
+
+// shortcut
+testaction
+
+// code
+func test<#Action#>Should<#ProvideResult#>() {
+    // given
+	<#SomeState#>
+    
+    // when
+    <#PerformSomeAction#>
+    
+    // then
+    <#AssertSomething#>
+}

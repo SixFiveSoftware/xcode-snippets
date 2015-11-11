@@ -1,0 +1,15 @@
+// title
+Do/Try/Catch block
+
+// summary
+Adds a do/try/catch block with a valid catch requirement and an empty one.
+
+// shortcut
+dotrycatch
+
+// code in snippet
+do {
+    try <#Function to try#>
+} catch <#Error to catch#> {
+    <#Action on error#>
+} catch {}
