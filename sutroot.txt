@@ -1,0 +1,12 @@
+// title
+Add View Controller as Root View Controller
+
+// summary
+Sets the system under test (sut, the view controller being tested) as the root view controller of the key window.
+
+// shortcut
+sutroot
+
+// code
+UIApplication.sharedApplication().keyWindow!.rootViewController = sut
+
